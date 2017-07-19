@@ -1,4 +1,7 @@
-
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 header {
     position: relative;
@@ -85,6 +88,40 @@ header nav ul a li:hover {
     overflow: auto;
 }
 
+#mainContent form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 6pt;
+    line-height: 24pt;
+}
+
+#mainContent form input {
+    margin-bottom: 6pt;
+    line-height: 20pt;
+    width: 100%;
+}
+
+#mainContent form textarea {
+    width: 100%;
+}
+
+#button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
 #sidebar {
     width: 260px;
     float: left;
@@ -134,7 +171,21 @@ h3 span {
     padding: 14px;
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    padding-top: 12px;
+    text-align: center;
+    color: lightgrey;
+    background: #666666;
+    border-top: solid 4px #4aaaa5;
+}
+
 body {
     /*background-image: assets/images/cork-wallet.png;*/
     background: lightgrey;
+    margin: 0 0 50px;
 }
